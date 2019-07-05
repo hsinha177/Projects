@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' type="text/css" href="headerfile.css">
+        <link rel='stylesheet' type="text/css" href="verticalline.css">
+        <link rel="stylesheet" type="text/css" href="dropdwnall.css">
+        <link rel="stylesheet" type="text/css" href="navigationtop.css">
+        <link rel="stylesheet" type="text/css" href="buton.css">
+        <link rel="stylesheet" href="body.css">
+        <style>
+            img {
+                max-width: 100%;
+                height: auto; }
+            
+            input[type=text] {
+                width: 75%;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 20px;
+                font-size: 16px;
+                background-color: white;
+                background-image: url('searchicon.png');
+                background-position: 10px 10px; 
+                background-repeat: no-repeat;
+                padding: 12px 20px 12px 40px; 
+                align-content: center; }
+            form{
+                margin-left: 70%;
+                margin-top: -65px; }
+            button{
+                border-radius: 16px;
+                padding-top: 14px;
+                padding-bottom: 12px;
+                text-decoration: none;
+            }
+        </style>
+        <title>Hosting Time</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="vl">
+                <h2> Cache<br> Coders</h2>
+                <form method="post" id="f1">
+                    <input type="text" title="Enter your search" name="search" placeholder="Search">
+                    <button class="buton" type="submit" form="f1" value="GO">GO</button>
+                </form>
+            </div> 
+        </div>
+        <div class="topnav"> 
+            <div class="dropdown">
+                <button class="dropbtn"> Services </button>
+                <div class="dropdown-content">
+                    <a href="numpy.html" >Numerical Python</a>
+                    <a href="panda.html">Pandas</a>
+                    <a href="https://scikit-learn.org/stable/#">Sci-Kit learn</a>
+                    <a href="https://matplotlib.org/">Data Visualization</a>
+                </div>
+                
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Interface</button>
+                <div class="dropdown-content">
+                    <a href="#">Linux Terminal</a>
+                    <a href="#">VI Editor</a>
+                    <a href="#">Python3</a>
+                    <a href="#">Fedora</a>
+                </div>
+            </div>
+            <a href="recoface.html" class="button">Face Recognition</a>
+            <a href="contactus.html" class="button">Contact Us</a>
+        </div> 
+        <img src="image4.jpg">
+        <div class="body"></div>
+        <div id="clock">2:00</div>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(241, 255, 67, 0.56) ;
+    counter-reset: section;
+    text-decoration: none;
+}
+.view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: rgba(90, 201, 137, 0.64) ;
+    padding: 40px;
+    box-sizing: border-box;
+    border:1px solid rgba(219, 209, 209, 0.98);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.view h2::before
+{
+    counter-increment: section;
+    content: counter(section)" : ";
+}
+#icn{
+    margin: 10px;
+    padding: 10px;
+}
