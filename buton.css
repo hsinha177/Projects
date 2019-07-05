@@ -1,0 +1,10 @@
+.buton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.buton:hover {
+  background-color: #008CBA;
+  color: white;
+}
